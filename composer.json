@@ -1,0 +1,31 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://github.com"
+        }
+    ],
+    "name": "twofish/encryption",
+    "version": "1.0",
+    "description": "Laravel Twofish Encryption Package",
+    "license": "MIT",
+    "homepage": "https://github.com/ajitya2002/laravel-twofish-encryption",
+    "authors": [
+        {
+            "name": "Ajit Singh",
+            "email": "ajitya2002@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+
+    "autoload": {
+        "psr-4": {
+            "TwoFish\\Encryption": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "secure-http": false
+    }
+}
